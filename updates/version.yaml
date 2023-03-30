@@ -1,2 +1,17 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table eduzoneco_management_courses'
+    - builder_table_create_eduzoneco_management_courses.php
+1.0.3:
+    - 'Created table eduzoneco_management_lessons'
+    - builder_table_create_eduzoneco_management_lessons.php
+1.0.4:
+    - 'Created table eduzoneco_management_courses_lessons'
+    - create_eduzoneco_management_courses_lessons.php
+1.0.5:
+    - 'Created table eduzoneco_management_coursestatuses'
+    - builder_table_create_eduzoneco_management_coursestatuses.php
+1.0.6:
+    - 'Created table eduzoneco_management_lessonstatuses'
+    - builder_table_create_eduzoneco_management_lessonstatuses.php

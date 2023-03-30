@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+    name_en:
+        label: 'eduzoneco.management::lang.backend.coursestatus.list.name_en'
+        type: text
+    name_es:
+        label: 'eduzoneco.management::lang.backend.coursestatus.list.name_es'
+        type: text
+    created_at:
+        label: 'eduzoneco.management::lang.backend.general.created_at'
+        type: datetime
+    updated_at:
+        label: 'eduzoneco.management::lang.backend.general.updated_at'
+        type: datetime
+    deleted_at:
+        label: 'eduzoneco.management::lang.backend.general.deleted_at'
+        type: datetime

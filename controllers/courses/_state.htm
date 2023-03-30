@@ -1,0 +1,9 @@
+<div class="d-flex align-items-center state-container">
+    <div style="height:25px;width:25px;background-color:<?= $record->status->hex_code ?>;border-radius:50%;display:inline-block;"></div>
+    <div><?= $record->status->description_es ?></div>
+</div>
+<style>
+    .state-container {
+        gap: 15px;   
+    }
+</style>

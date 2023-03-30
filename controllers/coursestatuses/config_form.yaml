@@ -1,0 +1,10 @@
+name: CourseStatuses
+form: $/eduzoneco/management/models/coursestatus/fields.yaml
+modelClass: Eduzoneco\Management\Models\CourseStatus
+defaultRedirect: eduzoneco/management/coursestatuses
+create:
+    redirect: 'eduzoneco/management/coursestatuses/update/:id'
+    redirectClose: eduzoneco/management/coursestatuses
+update:
+    redirect: eduzoneco/management/coursestatuses
+    redirectClose: eduzoneco/management/coursestatuses

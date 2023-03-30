@@ -1,0 +1,21 @@
+fields:
+    name_en:
+        label: 'eduzoneco.management::lang.backend.lesson.form.name_en'
+        span: auto
+        type: text
+    name_es:
+        label: 'eduzoneco.management::lang.backend.lesson.form.name_es'
+        span: auto
+        type: text
+    description_en:
+        label: 'eduzoneco.management::lang.backend.lesson.form.description_en'
+        span: auto
+        type: richeditor
+    description_es:
+        label: 'eduzoneco.management::lang.backend.lesson.form.description_es'
+        span: auto
+        type: richeditor
+    lessonstatus_id:
+        label: 'eduzoneco.management::lang.backend.lesson.form.lessonstatus_id'
+        span: auto
+        type: dropdown

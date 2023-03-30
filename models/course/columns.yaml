@@ -1,0 +1,19 @@
+columns:
+    state:
+        label: 'eduzoneco.management::lang.backend.course.list.state'
+        type: partial
+        path: $/eduzoneco/management/controllers/courses/_state.htm
+        width: 350px
+    name:
+        label: 'eduzoneco.management::lang.backend.course.list.name'
+        displayFrom: name
+        width: 300px
+    created_at:
+        label: 'eduzoneco.management::lang.backend.general.created_at'
+        type: timetense
+    updated_at:
+        label: 'eduzoneco.management::lang.backend.general.updated_at'
+        type: timetense
+    deleted_at:
+        label: 'eduzoneco.management::lang.backend.general.deleted_at'
+        type: timetense
