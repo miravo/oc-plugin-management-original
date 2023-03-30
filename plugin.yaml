@@ -4,3 +4,25 @@ plugin:
     author: Eduzone
     icon: oc-icon-adjust
     homepage: ''
+navigation:
+    management:
+        label: 'eduzoneco.management::lang.backend.general.side_menu_item_label'
+        url: /
+        icon: icon-book
+        sideMenu:
+            course:
+                label: 'eduzoneco.management::lang.backend.navbar.course'
+                url: eduzoneco/management/courses
+                icon: icon-folder-open-o
+            lesson:
+                label: 'eduzoneco.management::lang.backend.navbar.lesson'
+                url: eduzoneco/management/lessons
+                icon: icon-file
+            coursestatus:
+                label: 'eduzoneco.management::lang.backend.navbar.coursestatus'
+                url: eduzoneco/management/coursestatuses
+                icon: icon-gear
+            lessonstatuses:
+                label: 'eduzoneco.management::lang.backend.navbar.lessonstatus'
+                url: eduzoneco/management/lessonstatuses
+                icon: icon-gear

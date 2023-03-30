@@ -1,0 +1,23 @@
+fields:
+    name_en:
+        label: 'eduzoneco.management::lang.backend.course.form.name_en'
+        span: auto
+        type: text
+    name_es:
+        label: 'eduzoneco.management::lang.backend.course.form.name_es'
+        span: auto
+        type: text
+    description_en:
+        label: 'eduzoneco.management::lang.backend.course.form.description_en'
+        span: auto
+        type: richeditor
+    description_es:
+        label: 'eduzoneco.management::lang.backend.course.form.description_es'
+        span: auto
+        type: richeditor
+    coursestatus_id:
+        label: 'eduzoneco.management::lang.backend.course.form.coursestatus_id'
+        required: true
+        placeholder: 'eduzoneco.management::lang.backend.course.form.coursestatus_id_placeholder'
+        span: auto
+        type: dropdown

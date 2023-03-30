@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: 'eduzoneco.management::lang.backend.lesson.list.name'
+        type: text
+    status_id:
+        label: 'eduzoneco.management::lang.backend.lesson.list.lessonstatus_id'
+        type: number
+    created_at:
+        label: 'eduzoneco.management::lang.backend.general.created_at'
+        type: datetime
+    updated_at:
+        label: 'eduzoneco.management::lang.backend.general.updated_at'
+        type: datetime
+    deleted_at:
+        label: 'eduzoneco.management::lang.backend.general.deleted_at'
+        type: datetime
